@@ -10,12 +10,16 @@
     "test:report": "vitest run -- --coverage --costs",
     "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\""
   },
-  "author": "Marvin Janssen",
+  "author": "AdekunleBamz",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MarvinJanssen/clarity-stacks/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdekunleBamz/clarity-stacks.git"
   },
-  "homepage": "https://github.com/MarvinJanssen/clarity-stacks#readme",
+  "bugs": {
+    "url": "https://github.com/AdekunleBamz/clarity-stacks/issues"
+  },
+  "homepage": "https://github.com/AdekunleBamz/clarity-stacks#readme",
   "dependencies": {
     "@hirosystems/clarinet-sdk": "^2.3.2",
     "@noble/hashes": "^1.7.1",
@@ -26,6 +30,16 @@
     "vitest": "^1.3.1",
     "vitest-environment-clarinet": "^2.0.0"
   },
+  "keywords": [
+    "stacks",
+    "clarity",
+    "blockchain",
+    "smart-contracts",
+    "transaction-verification",
+    "bitcoin",
+    "library",
+    "typescript"
+  ],
   "devDependencies": {
     "ts-node": "^10.9.2"
   }
