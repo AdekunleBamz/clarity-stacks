@@ -81,6 +81,11 @@
 	)
 )
 
+;; Check if debug mode is enabled
+(define-read-only (is-debug-mode)
+  debug-mode
+)
+
 ;; Returns (ok true) if the transaction was mined.
 (define-read-only (was-tx-mined-compact (txid (buff 32)) (proof { tx-index: uint, hashes: (list 14 (buff 32)), tree-depth: uint}) (tx-block-height uint) (block-header-without-signer-signatures (buff 712)))
 	(let (
